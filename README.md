@@ -4,7 +4,7 @@
 
   In this project, the delamination defect images of ultrasonic inspection are used. Other kinds of defects or inspection methods, such as thermography inspection, images can be the dataset of the Single Shot MultiBox Detector (SSD) network to evaluate the components and specimens in the industries. As the result, it can improve the efficiency of the inspection processes.
 
-# Expected outcomes
+# 1. Expected outcomes
 
 Identify discontinuities and classify the defects into two main categories by severity on the ultrasonic C-scan images
 Locate and size the discontinuities in the ultrasonic C-scan images
@@ -13,29 +13,40 @@ Gather the network inference results and defect information in the inspection re
 
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/objective.png)
 
-# Methodology
+# 2. Methodology
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Methodology.png)
 
-# Dataset Preparation 
+# 2.1Dataset Preparation 
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Dataset%20preparation.png)
 
-# Hardware
+# 2.2 Hardware
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Hardware.png)
 
-# Configuration 
+# 2.3 Configuration 
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Configuration.png)
 
-# Software
+# 2.4 Software
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/software.png)
 
-# Training Overview
+# 2.5 Training Overview
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Training%20overview.png)
 
-# System Overview
+# 2.6 System Overview
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/reporting%20system.png)
 
-# Report example
+# 2.7 Report example
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Inspection%20report%20example.png)
+
+# 3. Usage
+
+3.1 Usage of scripts
+1. Jason_Demo_FYP_Auto.sh: To execute all the prgram function automatically
+2. Carmera_tf_trt.py: To execute the defect detection function
+3. Resize_image.py: Resize the input image
+4. Visualization.py: To generate the boundary boxes information
+5. MQTT_Subscriber.py: To receive the defect information from camera_tf_trt.py
+6. Image_list.csv: To store the input image information
+
 
 
 
