@@ -37,9 +37,7 @@ Gather the network inference results and defect information in the inspection re
 # 2.7 Report example
 ![image](https://github.com/jasonngai01/UTPA_SSD/blob/master/image/Inspection%20report%20example.png)
 
-# 3. Usage
-
-3.1 Usage of scripts
+# 3. Usage of scripts
 1. Jason_Demo_FYP_Auto.sh: To execute all the prgram function automatically
 2. Carmera_tf_trt.py: To execute the defect detection function
 3. Resize_image.py: Resize the input image
